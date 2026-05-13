@@ -4,5 +4,11 @@
   "type": "commonjs",
   "engines": {
     "node": ">=20"
+  },
+  "scripts": {
+    "check": "biome check ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.15"
   }
 }
