@@ -6,7 +6,8 @@
     "node": ">=20"
   },
   "scripts": {
-    "check": "biome check ."
+    "check": "biome check .",
+    "test": "node --test"
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.15"
